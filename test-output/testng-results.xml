@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="30" passed="25">
+  <reporter-output>
+    <line>
+      <![CDATA[Intentionally passed verifyTitleTest case]]>
+    </line>
+    <line>
+      <![CDATA[Intentionally failed verifyTitleTest case]]>
+    </line>
+    <line>
+      <![CDATA[Intentionally failed verifyURLTest case]]>
+    </line>
+    <line>
+      <![CDATA[Intentionally passed verifyTitleTest case]]>
+    </line>
+    <line>
+      <![CDATA[Intentionally failed verifyTitleTest case]]>
+    </line>
+    <line>
+      <![CDATA[Intentionally failed verifyURLTest case]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="272348" started-at="2023-02-18T15:46:54 IST" finished-at="2023-02-18T15:51:27 IST">
+    <groups>
+      <group name="functional">
+        <method signature="yourCartPageTest.yourCartTest1()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="yourCartTest1" class="Test.yourCartPageTest"/>
+        <method signature="yourCartPageTest.yourCartTest1()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="yourCartTest1" class="Test.yourCartPageTest"/>
+        <method signature="yourInfoPageTest.yourCartTest1()[pri:3, instance:Test.yourInfoPageTest@279ad2e3]" name="yourCartTest1" class="Test.yourInfoPageTest"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="inventoryPageTest.inventoryTest1()[pri:0, instance:Test.inventoryPageTest@1372ed45]" name="inventoryTest1" class="Test.inventoryPageTest"/>
+        <method signature="loginPageTest.loginTest1()[pri:0, instance:Test.loginPageTest@37574691]" name="loginTest1" class="Test.loginPageTest"/>
+        <method signature="loginPageTest.verifyLogoTest()[pri:0, instance:Test.loginPageTest@37574691]" name="verifyLogoTest" class="Test.loginPageTest"/>
+        <method signature="overviewPageTest.overviewPageTest2()[pri:0, instance:Test.overviewPageTest@1efee8e7]" name="overviewPageTest2" class="Test.overviewPageTest"/>
+        <method signature="yourCartPageTest.yourCartTest1()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="yourCartTest1" class="Test.yourCartPageTest"/>
+        <method signature="yourInfoPageTest.yourInfoPageTest1()[pri:2, instance:Test.yourInfoPageTest@21a947fe]" name="yourInfoPageTest1" class="Test.yourInfoPageTest"/>
+        <method signature="loginPageTest.loginTest1()[pri:0, instance:Test.loginPageTest@429bd883]" name="loginTest1" class="Test.loginPageTest"/>
+        <method signature="yourCartPageTest.yourCartTest1()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="yourCartTest1" class="Test.yourCartPageTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="loginPageTest.loginTest1()[pri:0, instance:Test.loginPageTest@37574691]" name="loginTest1" class="Test.loginPageTest"/>
+        <method signature="loginPageTest.verifyURLTest()[pri:0, instance:Test.loginPageTest@37574691]" name="verifyURLTest" class="Test.loginPageTest"/>
+        <method signature="yourCartPageTest.addInventoryTest()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="addInventoryTest" class="Test.yourCartPageTest"/>
+        <method signature="yourInfoPageTest.loginTest1()[pri:1, instance:Test.yourInfoPageTest@21a947fe]" name="loginTest1" class="Test.yourInfoPageTest"/>
+        <method signature="loginPageTest.loginTest1()[pri:0, instance:Test.loginPageTest@429bd883]" name="loginTest1" class="Test.loginPageTest"/>
+        <method signature="loginPageTest.verifyURLTest()[pri:0, instance:Test.loginPageTest@429bd883]" name="verifyURLTest" class="Test.loginPageTest"/>
+        <method signature="yourCartPageTest.addInventoryTest()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="addInventoryTest" class="Test.yourCartPageTest"/>
+        <method signature="yourInfoPageTest.loginTest1()[pri:1, instance:Test.yourInfoPageTest@279ad2e3]" name="loginTest1" class="Test.yourInfoPageTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="inventoryPageTest.inventoryTest2()[pri:0, instance:Test.inventoryPageTest@1372ed45]" name="inventoryTest2" class="Test.inventoryPageTest"/>
+        <method signature="loginPageTest.loginTest1()[pri:0, instance:Test.loginPageTest@37574691]" name="loginTest1" class="Test.loginPageTest"/>
+        <method signature="loginPageTest.verifyTitleTest()[pri:0, instance:Test.loginPageTest@37574691]" name="verifyTitleTest" class="Test.loginPageTest"/>
+        <method signature="overviewPageTest.overviewPageTest1()[pri:0, instance:Test.overviewPageTest@1efee8e7]" name="overviewPageTest1" class="Test.overviewPageTest"/>
+        <method signature="yourCartPageTest.loginTest1()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="loginTest1" class="Test.yourCartPageTest"/>
+        <method signature="yourInfoPageTest.inventoryTest1()[pri:0, instance:Test.yourInfoPageTest@21a947fe]" name="inventoryTest1" class="Test.yourInfoPageTest"/>
+        <method signature="inventoryPageTest.inventoryTest2()[pri:0, instance:Test.inventoryPageTest@345965f2]" name="inventoryTest2" class="Test.inventoryPageTest"/>
+        <method signature="loginPageTest.loginTest1()[pri:0, instance:Test.loginPageTest@429bd883]" name="loginTest1" class="Test.loginPageTest"/>
+        <method signature="loginPageTest.verifyTitleTest()[pri:0, instance:Test.loginPageTest@429bd883]" name="verifyTitleTest" class="Test.loginPageTest"/>
+        <method signature="overviewPageTest.overviewPageTest1()[pri:0, instance:Test.overviewPageTest@6591f517]" name="overviewPageTest1" class="Test.overviewPageTest"/>
+        <method signature="yourCartPageTest.loginTest1()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="loginTest1" class="Test.yourCartPageTest"/>
+        <method signature="yourInfoPageTest.inventoryTest1()[pri:0, instance:Test.yourInfoPageTest@279ad2e3]" name="inventoryTest1" class="Test.yourInfoPageTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test1" duration-ms="164905" started-at="2023-02-18T15:46:54 IST" finished-at="2023-02-18T15:49:39 IST">
+      <class name="Test.yourCartPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="setup" is-config="true" duration-ms="1833" started-at="2023-02-18T15:48:20 IST" finished-at="2023-02-18T15:48:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addInventoryTest()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="addInventoryTest" duration-ms="605" started-at="2023-02-18T15:48:21 IST" finished-at="2023-02-18T15:48:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInventoryTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="closeBrowser" is-config="true" duration-ms="16226" started-at="2023-02-18T15:48:22 IST" finished-at="2023-02-18T15:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="setup" is-config="true" duration-ms="1931" started-at="2023-02-18T15:48:38 IST" finished-at="2023-02-18T15:48:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="loginTest1" duration-ms="231" started-at="2023-02-18T15:48:40 IST" finished-at="2023-02-18T15:48:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="closeBrowser" is-config="true" duration-ms="64" started-at="2023-02-18T15:48:40 IST" finished-at="2023-02-18T15:48:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="setup" is-config="true" duration-ms="1813" started-at="2023-02-18T15:48:41 IST" finished-at="2023-02-18T15:48:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="yourCartTest1()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="yourCartTest1" duration-ms="992" started-at="2023-02-18T15:48:42 IST" finished-at="2023-02-18T15:48:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourCartTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.yourCartPageTest@25359ed8]" name="closeBrowser" is-config="true" duration-ms="16210" started-at="2023-02-18T15:48:43 IST" finished-at="2023-02-18T15:49:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.yourCartPageTest -->
+      <class name="Test.loginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.loginPageTest@37574691]" name="setup" is-config="true" duration-ms="1890" started-at="2023-02-18T15:47:39 IST" finished-at="2023-02-18T15:47:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:Test.loginPageTest@37574691]" name="loginTest1" duration-ms="268" started-at="2023-02-18T15:47:41 IST" finished-at="2023-02-18T15:47:42 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Intentionally passed verifyTitleTest case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.loginPageTest@37574691]" name="closeBrowser" is-config="true" duration-ms="16225" started-at="2023-02-18T15:47:42 IST" finished-at="2023-02-18T15:47:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest1 status=SUCCESS method=loginPageTest.loginTest1()[pri:0, instance:Test.loginPageTest@37574691] output=Intentionally passed verifyTitleTest case]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.loginPageTest@37574691]" name="setup" is-config="true" duration-ms="1780" started-at="2023-02-18T15:47:58 IST" finished-at="2023-02-18T15:48:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyLogoTest()[pri:0, instance:Test.loginPageTest@37574691]" name="verifyLogoTest" duration-ms="33" started-at="2023-02-18T15:48:00 IST" finished-at="2023-02-18T15:48:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoTest -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.loginPageTest@37574691]" name="closeBrowser" is-config="true" duration-ms="47" started-at="2023-02-18T15:48:00 IST" finished-at="2023-02-18T15:48:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogoTest status=SUCCESS method=loginPageTest.verifyLogoTest()[pri:0, instance:Test.loginPageTest@37574691] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.loginPageTest@37574691]" name="setup" is-config="true" duration-ms="1792" started-at="2023-02-18T15:48:00 IST" finished-at="2023-02-18T15:48:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:0, instance:Test.loginPageTest@37574691]" name="verifyTitleTest" duration-ms="29" started-at="2023-02-18T15:48:01 IST" finished-at="2023-02-18T15:48:01 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Intentionally failed verifyTitleTest case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.loginPageTest@37574691]" name="closeBrowser" is-config="true" duration-ms="16180" started-at="2023-02-18T15:48:01 IST" finished-at="2023-02-18T15:48:18 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleTest status=SUCCESS method=loginPageTest.verifyTitleTest()[pri:0, instance:Test.loginPageTest@37574691] output=Intentionally failed verifyTitleTest case]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.loginPageTest@37574691]" name="setup" is-config="true" duration-ms="1931" started-at="2023-02-18T15:48:18 IST" finished-at="2023-02-18T15:48:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyURLTest()[pri:0, instance:Test.loginPageTest@37574691]" name="verifyURLTest" duration-ms="28" started-at="2023-02-18T15:48:20 IST" finished-at="2023-02-18T15:48:20 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Intentionally failed verifyURLTest case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyURLTest -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.loginPageTest@37574691]" name="closeBrowser" is-config="true" duration-ms="58" started-at="2023-02-18T15:48:20 IST" finished-at="2023-02-18T15:48:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLTest status=SUCCESS method=loginPageTest.verifyURLTest()[pri:0, instance:Test.loginPageTest@37574691] output=Intentionally failed verifyURLTest case]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.loginPageTest -->
+      <class name="Test.inventoryPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.inventoryPageTest@1372ed45]" name="setup" is-config="true" duration-ms="1815" started-at="2023-02-18T15:47:18 IST" finished-at="2023-02-18T15:47:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inventoryTest1()[pri:0, instance:Test.inventoryPageTest@1372ed45]" name="inventoryTest1" duration-ms="1101" started-at="2023-02-18T15:47:20 IST" finished-at="2023-02-18T15:47:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inventoryTest1 -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:Test.inventoryPageTest@1372ed45]" name="closebrowser" is-config="true" duration-ms="16210" started-at="2023-02-18T15:47:21 IST" finished-at="2023-02-18T15:47:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inventoryTest1 status=SUCCESS method=inventoryPageTest.inventoryTest1()[pri:0, instance:Test.inventoryPageTest@1372ed45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.inventoryPageTest@1372ed45]" name="setup" is-config="true" duration-ms="1836" started-at="2023-02-18T15:47:37 IST" finished-at="2023-02-18T15:47:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inventoryTest2()[pri:0, instance:Test.inventoryPageTest@1372ed45]" name="inventoryTest2" duration-ms="407" started-at="2023-02-18T15:47:39 IST" finished-at="2023-02-18T15:47:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inventoryTest2 -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:Test.inventoryPageTest@1372ed45]" name="closebrowser" is-config="true" duration-ms="153" started-at="2023-02-18T15:47:39 IST" finished-at="2023-02-18T15:47:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inventoryTest2 status=SUCCESS method=inventoryPageTest.inventoryTest2()[pri:0, instance:Test.inventoryPageTest@1372ed45] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Test.inventoryPageTest -->
+      <class name="Test.overviewPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.overviewPageTest@1efee8e7]" name="setup" is-config="true" duration-ms="2767" started-at="2023-02-18T15:46:54 IST" finished-at="2023-02-18T15:46:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="overviewPageTest1()[pri:0, instance:Test.overviewPageTest@1efee8e7]" name="overviewPageTest1" duration-ms="1332" started-at="2023-02-18T15:46:57 IST" finished-at="2023-02-18T15:46:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overviewPageTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.overviewPageTest@1efee8e7]" name="closeBrowser" is-config="true" duration-ms="71" started-at="2023-02-18T15:46:59 IST" finished-at="2023-02-18T15:46:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.overviewPageTest@1efee8e7]" name="setup" is-config="true" duration-ms="1853" started-at="2023-02-18T15:46:59 IST" finished-at="2023-02-18T15:47:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="overviewPageTest2()[pri:0, instance:Test.overviewPageTest@1efee8e7]" name="overviewPageTest2" duration-ms="1195" started-at="2023-02-18T15:47:00 IST" finished-at="2023-02-18T15:47:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overviewPageTest2 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.overviewPageTest@1efee8e7]" name="closeBrowser" is-config="true" duration-ms="16197" started-at="2023-02-18T15:47:02 IST" finished-at="2023-02-18T15:47:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.overviewPageTest -->
+      <class name="Test.yourInfoPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourInfoPageTest@21a947fe]" name="setup" is-config="true" duration-ms="1811" started-at="2023-02-18T15:49:00 IST" finished-at="2023-02-18T15:49:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inventoryTest1()[pri:0, instance:Test.yourInfoPageTest@21a947fe]" name="inventoryTest1" duration-ms="607" started-at="2023-02-18T15:49:01 IST" finished-at="2023-02-18T15:49:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inventoryTest1 -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.yourInfoPageTest@21a947fe]" name="closeBrowser" is-config="true" duration-ms="69" started-at="2023-02-18T15:49:02 IST" finished-at="2023-02-18T15:49:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inventoryTest1 status=SUCCESS method=yourInfoPageTest.inventoryTest1()[pri:0, instance:Test.yourInfoPageTest@21a947fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourInfoPageTest@21a947fe]" name="setup" is-config="true" duration-ms="1761" started-at="2023-02-18T15:49:02 IST" finished-at="2023-02-18T15:49:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest1()[pri:1, instance:Test.yourInfoPageTest@21a947fe]" name="loginTest1" duration-ms="230" started-at="2023-02-18T15:49:04 IST" finished-at="2023-02-18T15:49:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.yourInfoPageTest@21a947fe]" name="closeBrowser" is-config="true" duration-ms="16209" started-at="2023-02-18T15:49:04 IST" finished-at="2023-02-18T15:49:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest1 status=SUCCESS method=yourInfoPageTest.loginTest1()[pri:1, instance:Test.yourInfoPageTest@21a947fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourInfoPageTest@21a947fe]" name="setup" is-config="true" duration-ms="1807" started-at="2023-02-18T15:49:20 IST" finished-at="2023-02-18T15:49:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="yourInfoPageTest1()[pri:2, instance:Test.yourInfoPageTest@21a947fe]" name="yourInfoPageTest1" duration-ms="1066" started-at="2023-02-18T15:49:22 IST" finished-at="2023-02-18T15:49:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourInfoPageTest1 -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.yourInfoPageTest@21a947fe]" name="closeBrowser" is-config="true" duration-ms="16192" started-at="2023-02-18T15:49:23 IST" finished-at="2023-02-18T15:49:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=yourInfoPageTest1 status=SUCCESS method=yourInfoPageTest.yourInfoPageTest1()[pri:2, instance:Test.yourInfoPageTest@21a947fe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.yourInfoPageTest -->
+    </test> <!-- Test1 -->
+    <test name="test2" duration-ms="107443" started-at="2023-02-18T15:49:39 IST" finished-at="2023-02-18T15:51:27 IST">
+      <class name="Test.yourCartPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="setup" is-config="true" duration-ms="1882" started-at="2023-02-18T15:50:23 IST" finished-at="2023-02-18T15:50:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addInventoryTest()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="addInventoryTest" duration-ms="639" started-at="2023-02-18T15:50:25 IST" finished-at="2023-02-18T15:50:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addInventoryTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="closeBrowser" is-config="true" duration-ms="16202" started-at="2023-02-18T15:50:26 IST" finished-at="2023-02-18T15:50:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="setup" is-config="true" duration-ms="1905" started-at="2023-02-18T15:50:42 IST" finished-at="2023-02-18T15:50:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="loginTest1" duration-ms="239" started-at="2023-02-18T15:50:44 IST" finished-at="2023-02-18T15:50:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="closeBrowser" is-config="true" duration-ms="16217" started-at="2023-02-18T15:50:44 IST" finished-at="2023-02-18T15:51:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="setup" is-config="true" duration-ms="1868" started-at="2023-02-18T15:51:00 IST" finished-at="2023-02-18T15:51:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="yourCartTest1()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="yourCartTest1" duration-ms="899" started-at="2023-02-18T15:51:02 IST" finished-at="2023-02-18T15:51:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourCartTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.yourCartPageTest@4d49af10]" name="closeBrowser" is-config="true" duration-ms="73" started-at="2023-02-18T15:51:03 IST" finished-at="2023-02-18T15:51:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.yourCartPageTest -->
+      <class name="Test.loginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.loginPageTest@429bd883]" name="setup" is-config="true" duration-ms="1809" started-at="2023-02-18T15:49:45 IST" finished-at="2023-02-18T15:49:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest1()[pri:0, instance:Test.loginPageTest@429bd883]" name="loginTest1" duration-ms="269" started-at="2023-02-18T15:49:47 IST" finished-at="2023-02-18T15:49:47 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Intentionally passed verifyTitleTest case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.loginPageTest@429bd883]" name="closeBrowser" is-config="true" duration-ms="93" started-at="2023-02-18T15:49:47 IST" finished-at="2023-02-18T15:49:47 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest1 status=SUCCESS method=loginPageTest.loginTest1()[pri:0, instance:Test.loginPageTest@429bd883] output=Intentionally passed verifyTitleTest case]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.loginPageTest@429bd883]" name="setup" is-config="true" duration-ms="1875" started-at="2023-02-18T15:49:47 IST" finished-at="2023-02-18T15:49:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyTitleTest()[pri:0, instance:Test.loginPageTest@429bd883]" name="verifyTitleTest" duration-ms="23" started-at="2023-02-18T15:49:49 IST" finished-at="2023-02-18T15:49:49 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Intentionally failed verifyTitleTest case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTitleTest -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.loginPageTest@429bd883]" name="closeBrowser" is-config="true" duration-ms="16188" started-at="2023-02-18T15:49:49 IST" finished-at="2023-02-18T15:50:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleTest status=SUCCESS method=loginPageTest.verifyTitleTest()[pri:0, instance:Test.loginPageTest@429bd883] output=Intentionally failed verifyTitleTest case]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.loginPageTest@429bd883]" name="setup" is-config="true" duration-ms="1800" started-at="2023-02-18T15:50:05 IST" finished-at="2023-02-18T15:50:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyURLTest()[pri:0, instance:Test.loginPageTest@429bd883]" name="verifyURLTest" duration-ms="23" started-at="2023-02-18T15:50:07 IST" finished-at="2023-02-18T15:50:07 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Intentionally failed verifyURLTest case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyURLTest -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.loginPageTest@429bd883]" name="closeBrowser" is-config="true" duration-ms="16184" started-at="2023-02-18T15:50:07 IST" finished-at="2023-02-18T15:50:23 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLTest status=SUCCESS method=loginPageTest.verifyURLTest()[pri:0, instance:Test.loginPageTest@429bd883] output=Intentionally failed verifyURLTest case]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.loginPageTest -->
+      <class name="Test.inventoryPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.inventoryPageTest@345965f2]" name="setup" is-config="true" duration-ms="1768" started-at="2023-02-18T15:49:42 IST" finished-at="2023-02-18T15:49:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inventoryTest2()[pri:0, instance:Test.inventoryPageTest@345965f2]" name="inventoryTest2" duration-ms="403" started-at="2023-02-18T15:49:44 IST" finished-at="2023-02-18T15:49:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inventoryTest2 -->
+        <test-method status="PASS" signature="closebrowser(org.testng.ITestResult)[pri:0, instance:Test.inventoryPageTest@345965f2]" name="closebrowser" is-config="true" duration-ms="175" started-at="2023-02-18T15:49:45 IST" finished-at="2023-02-18T15:49:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inventoryTest2 status=SUCCESS method=inventoryPageTest.inventoryTest2()[pri:0, instance:Test.inventoryPageTest@345965f2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- Test.inventoryPageTest -->
+      <class name="Test.overviewPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.overviewPageTest@6591f517]" name="setup" is-config="true" duration-ms="1810" started-at="2023-02-18T15:49:39 IST" finished-at="2023-02-18T15:49:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="overviewPageTest1()[pri:0, instance:Test.overviewPageTest@6591f517]" name="overviewPageTest1" duration-ms="1215" started-at="2023-02-18T15:49:41 IST" finished-at="2023-02-18T15:49:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overviewPageTest1 -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.overviewPageTest@6591f517]" name="closeBrowser" is-config="true" duration-ms="101" started-at="2023-02-18T15:49:42 IST" finished-at="2023-02-18T15:49:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.overviewPageTest -->
+      <class name="Test.yourInfoPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourInfoPageTest@279ad2e3]" name="setup" is-config="true" duration-ms="1913" started-at="2023-02-18T15:51:03 IST" finished-at="2023-02-18T15:51:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="inventoryTest1()[pri:0, instance:Test.yourInfoPageTest@279ad2e3]" name="inventoryTest1" duration-ms="622" started-at="2023-02-18T15:51:05 IST" finished-at="2023-02-18T15:51:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inventoryTest1 -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.yourInfoPageTest@279ad2e3]" name="closeBrowser" is-config="true" duration-ms="56" started-at="2023-02-18T15:51:06 IST" finished-at="2023-02-18T15:51:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inventoryTest1 status=SUCCESS method=yourInfoPageTest.inventoryTest1()[pri:0, instance:Test.yourInfoPageTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourInfoPageTest@279ad2e3]" name="setup" is-config="true" duration-ms="1880" started-at="2023-02-18T15:51:06 IST" finished-at="2023-02-18T15:51:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest1()[pri:1, instance:Test.yourInfoPageTest@279ad2e3]" name="loginTest1" duration-ms="235" started-at="2023-02-18T15:51:07 IST" finished-at="2023-02-18T15:51:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest1 -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.yourInfoPageTest@279ad2e3]" name="closeBrowser" is-config="true" duration-ms="97" started-at="2023-02-18T15:51:08 IST" finished-at="2023-02-18T15:51:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTest1 status=SUCCESS method=yourInfoPageTest.loginTest1()[pri:1, instance:Test.yourInfoPageTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.yourInfoPageTest@279ad2e3]" name="setup" is-config="true" duration-ms="1782" started-at="2023-02-18T15:51:08 IST" finished-at="2023-02-18T15:51:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="yourCartTest1()[pri:3, instance:Test.yourInfoPageTest@279ad2e3]" name="yourCartTest1" duration-ms="967" started-at="2023-02-18T15:51:10 IST" finished-at="2023-02-18T15:51:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yourCartTest1 -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:Test.yourInfoPageTest@279ad2e3]" name="closeBrowser" is-config="true" duration-ms="16206" started-at="2023-02-18T15:51:11 IST" finished-at="2023-02-18T15:51:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=yourCartTest1 status=SUCCESS method=yourInfoPageTest.yourCartTest1()[pri:3, instance:Test.yourInfoPageTest@279ad2e3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.yourInfoPageTest -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
